@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=ABeeZee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,700,700i&display=swap");
+*, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  background-color: #1a1717;
+  background-color: #fff;
+  padding: 90px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 1px solid grey;
+}
+
+.header .logo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.header .logo a {
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  color: rgba(224, 137, 38, 0.603);
+}
+
+.header .logo a:hover {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.header ul {
+  width: 100%;
+  text-align: center;
+}
+
+.header ul li {
+  margin: 28px 10px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+.header ul li a:hover {
+  border-bottom: 4px solid #feffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main {
+  width: 80%;
+  height: auto;
+  margin-left: 20%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+  padding: 0px 50px;
+}
+
+.main .exp {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  border-left: solid 1px #b3aca7;
+  border-bottom: solid 1px #b3aca7;
+  border-radius: 0px;
+  text-align: left;
+  color: #1b7251;
+  padding: 20px;
+  color: #1b1b1b;
+  margin-bottom: 20px;
+}
+
+.main .ham {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  z-index: 3;
+}
+
+.main .ham .fa-hamburger {
+  font-size: 2.3em;
+  color: black;
+}
+
+.main .ham .fa-hamburger:hover {
+  color: #b3aca7;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.main #about {
+  height: 100vh;
+  width: 100%;
+  padding: 40px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main #about .profile {
+  width: 100%;
+  height: auto;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main #about .profile img {
+  width: 200px;
+  height: 200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 50%;
+}
+
+.main #about .bio-data {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main #about .bio-data span {
+  margin: 20px 0px;
+}
+
+.main #about .bio-data h1 {
+  font-size: 3em;
+}
+
+.main #about .bio-data h4 {
+  font-size: 1.3em;
+}
+
+.main #about .bio-data p {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.main #about .social-media {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main #about .social-media ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.main #about .social-media ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main #about .social-media ul li a {
+  font-size: 3em;
+  color: #53225a;
+}
+
+.main #experience {
+  padding: 30px 0px;
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.main #education {
+  padding: 30px 0px;
+  border-bottom: 1px solid grey;
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.main #projects {
+  padding: 30px 0px;
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.main #projects .all-projects {
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.main #projects .all-projects .card {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main #projects .all-projects .card .card-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.main #projects .all-projects .card .card-image img {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.main #projects .all-projects .card .card-image img:hover {
+  width: 320px;
+}
+
+.main #skills {
+  padding: 30px 0px;
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.main #contact {
+  padding: 30px 0px;
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.main #contact .contact-form {
+  width: 100%;
+  padding: 10px 150px;
+}
+
+.main #contact .contact-form #form {
+  width: 100%;
+  margin: 50px auto 100px auto;
+}
+
+.main #contact .contact-form input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 100%;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.main #contact .contact-form input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+.main #contact .contact-form textarea {
+  width: 100%;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.main #contact .contact-form textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+.main #contact .contact-form #submit {
+  width: 100%;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+.main #contact .contact-form #submit:hover {
+  color: #e2dedb;
+}
+
+@media only screen and (max-width: 915px) {
+  .header {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+  .main .ham {
+    display: inline-block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
